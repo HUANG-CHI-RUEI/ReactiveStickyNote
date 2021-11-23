@@ -59,4 +59,7 @@ dependencies {
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_version"
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_version"
+    //RxJava
+    implementation 'io.reactivex.rxjava3:rxjava:3.0.12'
+    implementation "androidx.compose.runtime:runtime-rxjava3:$compose_version"
 }
