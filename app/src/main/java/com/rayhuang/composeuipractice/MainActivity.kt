@@ -29,29 +29,4 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@Composable
-fun StickyNote(note: Note) {
-    Surface(
-        Modifier
-            .offset(x = note.position.x.dp, y = note.position.y.dp)
-            .size(108.dp, 108.dp),
-        color = Color(note.color.color),
-        elevation = 8.dp
-    ) {
-        Column(modifier = Modifier
-            .padding(16.dp)
-        ) {
-            Text(text = note.text, style = MaterialTheme.typography.h5)
-        }
-    }
-}
 
-
-@Preview(showBackground = true)
-@Composable
-fun StickyNotePreview() {
-    Box(Modifier.fillMaxSize()) {
-        StickyNote(Note.createRandomNote())
-        StickyNote(Note.createRandomNote())
-    }
-}

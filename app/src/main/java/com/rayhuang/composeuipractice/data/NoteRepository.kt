@@ -5,14 +5,6 @@ import io.reactivex.rxjava3.core.Observable
 
 interface NoteRepository {
     fun getAll(): Observable<List<Note>>
+    fun putNote(note: Note)
 }
 
-class InMemoryNoteRepository(): NoteRepository {
-    private val allNotes = listOf(
-        Note.createRandomNote()
-    )
-
-    override fun getAll(): Observable<List<Note>> {
-        return Observable.just(allNotes)
-    }
-}

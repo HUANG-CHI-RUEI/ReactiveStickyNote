@@ -37,6 +37,7 @@ android {
     }
     composeOptions {
         kotlinCompilerExtensionVersion compose_version
+
     }
     packagingOptions {
         resources {
@@ -62,4 +63,5 @@ dependencies {
     //RxJava
     implementation 'io.reactivex.rxjava3:rxjava:3.0.12'
     implementation "androidx.compose.runtime:runtime-rxjava3:$compose_version"
+    implementation 'com.github.reactivex:rxkotlin:3.0.1'
 }
