@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "495172798854",
+    "project_id": "stickynote-73abf",
+    "storage_bucket": "stickynote-73abf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495172798854:android:96da12ea94d01ef06c8407",
+        "android_client_info": {
+          "package_name": "com.rayhuang.composeuipractice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495172798854-cj95ej2487lakcj35p8j5jo9cpg1469j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU4-W34fk7uJK3CzFem7inNGmi7khxYDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495172798854-cj95ej2487lakcj35p8j5jo9cpg1469j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

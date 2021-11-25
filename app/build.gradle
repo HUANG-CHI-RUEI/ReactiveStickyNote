@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.rayhuang.composeuipractice"
-        minSdk 21
+        minSdk 24
         targetSdk 30
         versionCode 1
         versionName "1.0"
@@ -45,6 +45,7 @@ android {
         }
     }
 }
+apply plugin: 'com.google.gms.google-services'
 
 dependencies {
 
@@ -63,5 +64,15 @@ dependencies {
     //RxJava
     implementation 'io.reactivex.rxjava3:rxjava:3.0.12'
     implementation "androidx.compose.runtime:runtime-rxjava3:$compose_version"
-    implementation 'com.github.reactivex:rxkotlin:3.0.1'
+    implementation 'io.reactivex.rxjava3:rxkotlin:3.0.1'
+    implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'
+    //Navigation
+    implementation("androidx.navigation:navigation-compose:2.4.0-beta02")
+    implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
+    implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
+    // Import the Firebase BoM & firestore
+    implementation platform('com.google.firebase:firebase-bom:28.4.0')
+    implementation "com.google.firebase:firebase-firestore"
+//    implementation 'com.google.gms:google-services:4.3.10'
+
 }

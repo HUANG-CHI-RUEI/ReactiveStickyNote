@@ -1,4 +1,4 @@
-package com.rayhuang.composeuipractice.ui.theme.view
+package com.rayhuang.composeuipractice.ui.view
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -11,6 +11,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.rayhuang.composeuipractice.domain.BoardViewModel
 import com.rayhuang.composeuipractice.model.Note
 import com.rayhuang.composeuipractice.model.Position
+
 
 @Composable
 fun BoardView(boardViewModel: BoardViewModel) {
@@ -28,3 +29,4 @@ fun BoardView(boardViewModel: BoardViewModel) {
         }
     }
 }
+

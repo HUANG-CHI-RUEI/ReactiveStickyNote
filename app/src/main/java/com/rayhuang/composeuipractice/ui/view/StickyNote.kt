@@ -1,4 +1,4 @@
-package com.rayhuang.composeuipractice.ui.theme.view
+package com.rayhuang.composeuipractice.ui.view
 
 import androidx.compose.foundation.gestures.detectDragGestures
 import androidx.compose.foundation.layout.*
@@ -43,5 +43,6 @@ fun StickyNote(
         }
     }
 }
+
 
 
